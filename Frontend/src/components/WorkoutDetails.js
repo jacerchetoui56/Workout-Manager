@@ -11,7 +11,7 @@ export default function WorkoutDetails({ workout }) {
     if (!user) return;
 
     const response = await fetch(
-      "https://workoutsmanager.onrender.com/api/workouts/" + workout._id,
+      "https://workout-manager-jacer.onrender.com/api/workouts/" + workout._id,
       {
         method: "DELETE",
         headers: {

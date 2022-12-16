@@ -33,7 +33,7 @@ export default function WorkoutForm() {
       return;
     }
     const response = await fetch(
-      "https://workoutsmanager.onrender.com/api/workouts",
+      "https://workout-manager-jacer.onrender.com/api/workouts",
       {
         method: "POST",
         body: JSON.stringify(form),

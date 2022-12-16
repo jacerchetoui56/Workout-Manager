@@ -16,7 +16,7 @@ export default function Home() {
     const token = user?.token;
     const fetchWorkouts = async () => {
       const response = await fetch(
-        "https://workoutsmanager.onrender.com/api/workouts",
+        "https://workout-manager-jacer.onrender.com/api/workouts",
         {
           headers: {
             authorization: `Bearer ${token}`,

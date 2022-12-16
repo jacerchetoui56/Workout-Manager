@@ -13,7 +13,7 @@ export default function useLogin() {
     setIsLoading(true);
 
     const response = await fetch(
-      "https://workoutsmanager.onrender.com/api/user/login",
+      "https://workout-manager-jacer.onrender.com/api/user/login",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
